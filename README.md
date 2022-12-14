@@ -2,34 +2,6 @@
 
 In this project we are building and API for predicting whether a passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly. To help you make these predictions, you're given a set of personal records recovered from the ship's damaged computer system.
 
-
-###### Prediction API : https://mlzoomcamp-2022-capstone-project-1.herokuapp.com/
-
-###### Curl example:
-
-```bash
-curl -X 'POST' \
-  'https://mlzoomcamp-2022-capstone-project-1.herokuapp.com/predict' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "PassengerId": "0013_01",
-  "HomePlanet": "Earth",
-  "CryoSleep": true,
-  "Cabin": "G/3/S",
-  "Destination": "TRAPPIST-1e",
-  "Age": 27,
-  "VIP": false,
-  "RoomService": 0,
-  "FoodCourt": 0,
-  "ShoppingMall": 0,
-  "Spa": 0,
-  "VRDeck": 0,
-  "Names": "Nelly Carsoning"
-}'
-```
-
-
 ### Data
 
 Data is available in the `data` folder. The `train.csv` file contains the training set.
